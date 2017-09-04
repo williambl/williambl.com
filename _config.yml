@@ -25,7 +25,7 @@ formatted_description: >
   I often participate in Ludum Dares. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: williambl
+twitter_username: williambl_
 github_username:  williambl
 
 # Build settings
