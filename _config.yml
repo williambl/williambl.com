@@ -18,6 +18,10 @@ email: william@williambl.com
 description: > # this means to ignore newlines until "baseurl:"
   Creator of games, mods, and other programs.
   Things I've made include DeltaMC, the Haunt, and the EssentialFeatures minecraft mod.
+  I often participate in Ludum Dares.
+formatted_description: >
+  Creator of games, mods, and other programs.
+  Things I've made include [DeltaMC](https://github.com/deltamc-project), [the Haunt](https://github.com/williambl/Haunt), and the [EssentialFeatures](https://github.com/williambl/EssentialFeatures) minecraft mod.
   I often participate in Ludum Dares. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
