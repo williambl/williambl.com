@@ -1,0 +1,24 @@
+<div class="sidebar">
+    <img src="/images/WBL0.jpeg" />
+    <p>{{ site.description }}</p>
+    <h3>Contact:</h3>
+    <ul class="contact-list">
+      {% if site.email %}
+      <li>
+          <a href="mailto:{{ site.email }}">Email</a>
+      </li>
+      {% endif %}
+ 
+      {% if site.github_username %}
+      <li>
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      </li>
+      {% endif %}
+      {% if site.twitter_username %}
+      <li>
+          <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+      </li>
+      {% endif %}
+    </ul>
+ 
+</div>
