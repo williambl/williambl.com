@@ -177,7 +177,10 @@
  */
 .page-content {
   padding: $spacing-unit 0;
-  display: flex;
+  display: grid;
+  grid-template: 1fr/ repeat(4, 1fr);
+  grid-template-areas:
+        'sidebar content content';
 }
 
 .page-heading {
@@ -256,8 +259,8 @@
 
 .sidebar {
   min-width: 1em;
-  max-width: 20em;
-  float: left;
+  max-width: 15em;
+  grid-area: sidebar;
   margin: 2.2em;
   text-align:center;
   border-right-color: black;
@@ -266,7 +269,7 @@
 
   @include media-query($on-laptop) {
     min-width: 0em;
-    max-width: 15em;
+    max-width: 13em;
   }
 
   @include media-query($on-palm) {
@@ -280,9 +283,9 @@
 }
 
 .sidebar img {
-  max-width: 17em;
+  max-width: 13em;
 
   @include media-query($on-laptop) {
-    max-width: 13em;
+    max-width: 10em;
   }
 }
