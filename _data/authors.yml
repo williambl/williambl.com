@@ -1,0 +1,8 @@
+# Authors
+# You can set another author using as many attributs as a site owner does.
+
+example:
+  name: example
+  email: example@domain.com
+  bio: "example"
+  avatar: avatar.jpg
