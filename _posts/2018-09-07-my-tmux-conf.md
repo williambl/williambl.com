@@ -3,6 +3,7 @@ layout: post
 title:  "An explanation of my .tmux.conf and tmux plugins"
 date:   2018-07-30 21:50:00
 categories: tmux customisation
+excerpt: "Last year, I posted a line-by-line explanation of my .vimrc. I've decided to do the same here with my .tmux.conf."
 image: 
   feature: tmux/tmux-1920px.png
   thumb: tmux/tmux-100px.png
@@ -19,7 +20,7 @@ This sets the terminal type to `xterm-256color`. If you have another terminal ty
 ```conf
 set -g mouse on
 ```
-This allows mouse interaction with tmux (clicking on panes to switch them, etc.)
+This allows mouse interaction with tmux (clicking on panes to switch them, dragging edges of panes to resize them, etc.)
 
 ```conf
 bind | split-window -h
@@ -27,7 +28,7 @@ bind - split-window -v
 unbind '"'
 unbind %
 ```
-Replaces the hard-to-remember `"` and `%` to split the window with `-` and `|`
+Replaces the hard-to-remember `"` and `%` to split a pane with `-` and `|`
 
 ```conf
 bind r source-file ~/.tmux.conf
@@ -37,7 +38,7 @@ This allows you to reload the `.tmux.conf` file by pressing `r`; very useful whe
 ```conf
 set-option -g allow-rename off
 ```
-If you set a custom name for a window, this stops that name being automatically overwritten.
+If you set a custom name for a window, this stops that name being automatically overwritten when a new command is run.
 
 ```conf
 bind h select-pane -L
