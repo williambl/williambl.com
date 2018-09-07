@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: My Stuff
+permalink: /my-stuff/
 ---
 
 {{ site.long_description }}
