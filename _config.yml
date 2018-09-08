@@ -13,6 +13,24 @@ long_description: >
   I often participate in Ludum Dares.
 url: https://williambl.com
 favicon: WBL/WBL0-128px-square.png
+collections:
+  code-games:
+    output: true
+  code-interlok:
+    output: true
+  code-minecraft:
+    output: true
+  code-misc:
+    output: true
+  code-unity-assets:
+    output: true
+  video-informative:
+    output: true
+  video-memes:
+    output: true
+  video-misc:
+    output: true
+
 #
 ###################################
 # Jekyll configuration
