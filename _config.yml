@@ -13,6 +13,7 @@ long_description: >
   I often participate in Ludum Dares.
 url: https://williambl.com
 favicon: WBL/WBL0-128px-square.png
+collections_dir: _collections
 collections:
   code-games:
     type: code
