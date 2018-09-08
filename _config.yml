@@ -15,14 +15,19 @@ url: https://williambl.com
 favicon: WBL/WBL0-128px-square.png
 collections:
   code-games:
+    type: code
     output: true
   code-interlok:
+    type: code
     output: true
   code-minecraft:
+    type: code
     output: true
   code-misc:
+    type: code
     output: true
   code-unity-assets:
+    type: code
     output: true
   video-informative:
     output: true
