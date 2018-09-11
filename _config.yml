@@ -17,24 +17,32 @@ collections_dir: _collections
 collections:
   code-games:
     type: code
+    link: /my-stuff/code/games
     output: true
   code-interlok:
     type: code
+    link: /my-stuff/code/interlok
     output: true
   code-minecraft:
     type: code
+    link: /my-stuff/code/minecraft
     output: true
   code-misc:
     type: code
+    link: /my-stuff/code/misc
     output: true
   code-unity-assets:
     type: code
+    link: /my-stuff/code/unity-assets
     output: true
   video-informative:
+    link: /my-stuff/video/informative
     output: true
   video-memes:
+    link: /my-stuff/video/memes
     output: true
   video-misc:
+    link: /my-stuff/video/misc
     output: true
 
 #
