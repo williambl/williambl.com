@@ -36,12 +36,15 @@ collections:
     link: /my-stuff/code/unity-assets
     output: true
   video-informative:
+    type: video
     link: /my-stuff/video/informative
     output: true
   video-memes:
+    type: video
     link: /my-stuff/video/memes
     output: true
   video-misc:
+    type: video
     link: /my-stuff/video/misc
     output: true
 
