@@ -5,5 +5,5 @@ permalink: /my-stuff/code/
 ---
 {% assign code-collections = site.collections | where: "type", "code" %}
 {% for collection in code-collections %}
-[{{ collection.label }}]({{ collection.link }})
+[{{ collection.title }}]({{ collection.link }})
 {% endfor %}

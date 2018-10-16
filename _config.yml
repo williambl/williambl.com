@@ -15,34 +15,42 @@ url: https://williambl.com
 favicon: WBL/WBL0-128px-square.png
 collections:
   code-games:
+    title: Games
     type: code
     link: /my-stuff/code/games
     output: true
   code-interlok:
+    title: Interlok
     type: code
     link: /my-stuff/code/interlok
     output: true
   code-minecraft:
+    title: Minecraft Mods et cetera
     type: code
     link: /my-stuff/code/minecraft
     output: true
   code-misc:
+    title: Miscellaneous
     type: code
     link: /my-stuff/code/misc
     output: true
   code-unity-assets:
+    title: Unity Assets
     type: code
     link: /my-stuff/code/unity-assets
     output: true
   video-informative:
+    title: Informative
     type: video
     link: /my-stuff/video/informative
     output: true
   video-memes:
+    title: Memes
     type: video
     link: /my-stuff/video/memes
     output: true
   video-misc:
+    title: Miscellaneous
     type: video
     link: /my-stuff/video/misc
     output: true
