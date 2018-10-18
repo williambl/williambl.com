@@ -6,6 +6,9 @@ layout: default
     <header class="page-header">
         <h2>{{ page.name }}</h2>
         <h5>{{ page.type }}</h5>
+        {% if page.github %}
+            <a href = {{ page.github }}>Github</a>
+        {% endif %}
     </header>
 
     <article class="page-content">

@@ -1,7 +1,8 @@
 ---
 name: unity-easy-portals
 type: Unity Asset
-layout: project-post
+github: https://github.com/williambl/unity-easy-portals
+layout: project-page
 ---
 
 unity-easy-portals is a WIP unity asset which lets you easily make portals. It builds on many other peoples' work.

@@ -1,6 +1,7 @@
 ---
 name: unity-destruction
 type: Unity Asset
+github: https://github.com/williambl/unity-destruction
 layout: project-page
 ---
 
