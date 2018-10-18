@@ -1,6 +1,7 @@
 ---
 name: unity-easy-portals
-layout: default
+type: Unity Asset
+layout: project-post
 ---
 
 unity-easy-portals is a WIP unity asset which lets you easily make portals. It builds on many other peoples' work.

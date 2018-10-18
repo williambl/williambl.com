@@ -1,6 +1,7 @@
 ---
 name: unity-destruction
-layout: default
+type: Unity Asset
+layout: project-page
 ---
 
 unity-destruction is an open-source script to realisticly trigger object destruction in Unity (having been provided a broken and unbroken mesh).
