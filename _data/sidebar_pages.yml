@@ -1,5 +1,8 @@
- - title: My Stuff
-   url: /my-stuff
+ - title: Code
+   url: /my-stuff/code
+
+ - title: Video
+   url: /my-stuff/video
 
  - title: Archive
    url: /archive
