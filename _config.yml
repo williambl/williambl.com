@@ -36,12 +36,12 @@ kramdown:
 #
 owner:
   name: William Bradford Larcombe
-  avatar: WBL/WBL0-378px-square.jpeg
+  avatar:
   job: "Developer"
   bio: Creator of games, mods, unity assets, and other things. Also often Ludum Dare participant.
   email: william@williambl.com
   disqus-shortname:
-  twitter: williambl_
+  twitter:
   facebook: #username
   google:
     plus: #username
