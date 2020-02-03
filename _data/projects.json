@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Essential Features",
+        "role": "Owner, Main Programmer",
+        "description": "An MC mod",
+        "homepage": "https://example.org",
+        "github": "https://example.org",
+        "image": {
+            "src": "https://images.unsplash.com/photo-1580723843692-137caf37ad17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+            "alt": "Placeholder"
+        },
+        "shields": [
+            "https://img.shields.io/github/languages/code-size/williambl/EssentialFeatures"
+        ]
+    }
+]
