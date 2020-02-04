@@ -10,12 +10,15 @@ layout: default
             {% for shield in project.shields %}
             <img src="{{ shield }}" />
             {% endfor %}
-            <a href="{{ project.homepage }}"><div class="font-bold text-xl text-white mt-2">{{ project.name }}</div></a>
+            <a href="{{ project.homepage }}" class="font-bold text-xl text-gray-300 mt-2">{{ project.name }}</a>
             <div class="font-light italic text-sm text-gray-300 mb-2">{{ project.role }}</div>
             <p class="text-gray-400 text-base">
                 {{ project.description }}
             </p>
-            <a href="{{ project.github }}" class="text-gray-300">GitHub</a>
+            <a href="{{ project.github }}" class="text-gray-300"><i class="fa fa-fw fa-github" ></i></a>
+            {% for tag in project.tags %}
+            <span class="inline-block bg-{{ tag }} rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{{ tag }}</span>
+            {% endfor %}
         </div>
     </div>
 {% endfor %}
