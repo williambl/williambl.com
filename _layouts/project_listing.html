@@ -2,23 +2,21 @@
 layout: default
 ---
 
+<div class="flex flex-wrap mb-4">
 {% for project in site.data.projects %}
-<section class="post">
-
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="max-w-xs flex-none rounded overflow-hidden shadow-xl bg-black">
         <img class="w-full" src="{{ project.image.src }}" alt="{{ project.image.alt }}" />
         <div class="px-6 py-4">
             {% for shield in project.shields %}
             <img src="{{ shield }}" />
             {% endfor %}
-            <a href="{{ project.homepage }}"><div class="font-bold text-xl, mt-2">{{ project.name }}</div></a>
-            <div class="font-light italic text-sm mb-2">{{ project.role }}</div>
-            <p class="text-gray-700 text-base">
+            <a href="{{ project.homepage }}"><div class="font-bold text-xl text-white mt-2">{{ project.name }}</div></a>
+            <div class="font-light italic text-sm text-gray-300 mb-2">{{ project.role }}</div>
+            <p class="text-gray-400 text-base">
                 {{ project.description }}
             </p>
-            <a href="{{ project.github }}">GitHub</a>
+            <a href="{{ project.github }}" class="text-gray-300">GitHub</a>
         </div>
     </div>
-
-</section>
 {% endfor %}
+</div>
