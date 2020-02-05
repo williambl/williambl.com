@@ -6,23 +6,26 @@ layout: default
 <p class="mb-4">Here's a collection of the things I've made or been involved in.</p>
 
 <div class="flex flex-wrap mb-4">
-{% for project in site.data.projects %}
+    {% for project in site.data.projects %}
     <div class="max-w-xs flex-none rounded overflow-hidden shadow-xl bg-black">
-        <img class="w-full" src="{{ project.image.src }}" alt="{{ project.image.alt }}" />
+        <a href="{{ project.homepage }}">
+            <img class="w-full" src="{{ project.image.src }}" alt="{{ project.image.alt }}" />
+        </a>
         <div class="px-6 py-4">
             {% for shield in project.shields %}
-            <img src="{{ shield }}" />
+            <a href="{{ shield.url }}"><img src="{{ shield.image }}" class="inline-block"/></a>
             {% endfor %}
+            <br \>
             <a href="{{ project.homepage }}" class="font-bold text-xl text-gray-300 mt-2">{{ project.name }}</a>
             <div class="font-light italic text-sm text-gray-300 mb-2">{{ project.role }}</div>
             <p class="text-gray-400 text-base">
                 {{ project.description }}
             </p>
-            <a href="{{ project.github }}" class="text-gray-300"><i class="fa fa-fw fa-github" ></i></a>
             {% for tag in project.tags %}
             <span class="inline-block bg-{{ tag }} rounded-full px-3 py-1 text-sm text-gray-200 font-semibold">{{ tag }}</span>
             {% endfor %}
         </div>
+        </a>
+        {% endfor %}
     </div>
-{% endfor %}
 </div>
