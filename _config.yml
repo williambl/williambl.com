@@ -3,16 +3,12 @@
 # Site wide configuration
 ####################################
 #
-title: William Bradford Larcombe
-email: william@williambl.com
-description: > # this means to ignore newlines until "baseurl:"
-  Creator of games, mods, unity assets, and other things. Also often Ludum Dare participant.
+description: Sometimes I make things.
 long_description: >
-  Creator of games, mods, unity assets, and other things.
-  Things I've made include [unity-destruction](https://github.com/williambl/unity-destruction), [DeltaMC](https://github.com/deltamc-project), and the [EssentialFeatures](https://github.com/williambl/EssentialFeatures) minecraft mod.
-  I often participate in Ludum Dares.
+  Hi!
+  I sometimes make things, usually with code. You can see a small selection down below. I also often participate in Ludum Dares, and sometimes other game jams (if I remember when they happen!)
 url: https://williambl.com
-favicon: WBL/WBL0-128px-square.png
+favicon: 
 #
 ###################################
 # Jekyll configuration
@@ -51,10 +47,10 @@ exclude:
 ####################################
 #
 owner:
-  name: William Bradford Larcombe
+  name: Will BL
   avatar:
   job: "Developer"
-  bio: Creator of games, mods, unity assets, and other things. Also often Ludum Dare participant.
+  bio: Sometimes I make things.
   email: william@williambl.com
   disqus-shortname:
   twitter:

@@ -1,0 +1,8 @@
+[
+    {"name": "og:title", "content": "Will BL"},
+    {"name": "og:type", "content": "website"},
+    {"name": "og:url", "content": "https://williambl.com"},
+    {"name": "og:description", "content": "Sometimes I make things."},
+
+    {"name": "theme-color", "content": "#328bf0"}
+]
