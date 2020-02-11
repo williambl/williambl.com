@@ -10,7 +10,8 @@ module.exports = {
                 "forge": "#1e2d42",
                 "fabric": "#9a927e",
                 "unity": "#030302",
-                "discord": "#7289da"
+                "discord": "#7289da",
+                "lwjgl": "#1b2426"
             }
         }
     },

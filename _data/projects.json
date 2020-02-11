@@ -1,8 +1,53 @@
 [
     {
+        "name": "Big Buckets",
+        "role": "Owner, Developer",
+        "description": "An MC Forge and Fabric mod adding upgradable buckets.",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/bigbuckets/files",
+        "image": {
+            "src": "https://media.forgecdn.net/avatars/237/51/637096945899162216.png",
+            "alt": "Big Buckets logo"
+        },
+        "shields": [
+            {
+                "image": "https://img.shields.io/github/stars/williambl/bigbuckets",
+                "url": "https://github.com/williambl/bigbuckets"
+            },
+            {
+                "image": "https://cf.way2muchnoise.eu/short_bigbuckets.svg",
+                "url": "https://www.curseforge.com/minecraft/mc-mods/bigbuckets/files"
+            }
+        ],
+        "tags": [
+            "java",
+            "forge",
+            "fabric"
+        ]
+    },
+    {
+        "name": "RaycastEngine",
+        "role": "Owner, Developer",
+        "description": "A game engine with Wolfenstein3D-style rendering.",
+        "homepage": "https://github.com/williambl/raycast-engine",
+        "image": {
+            "src": "https://media.forgecdn.net/avatars/237/51/637096945899162216.png",
+            "alt": "RaycastEngine logo"
+        },
+        "shields": [
+            {
+                "image": "https://img.shields.io/github/stars/williambl/raycast-engine",
+                "url": "https://github.com/williambl/raycast-engine"
+            }
+        ],
+        "tags": [
+            "kotlin",
+            "lwjgl"
+        ]
+    },
+    {
         "name": "Essential Features",
         "role": "Owner, Main Programmer",
-        "description": "An MC mod",
+        "description": "An MC Forge mod adding various assorted features.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files",
         "image": {
             "src": "https://media.forgecdn.net/avatars/236/469/637092749484707956.png",
@@ -10,7 +55,7 @@
         },
         "shields": [
             {
-                "image": "https://img.shields.io/github/languages/code-size/williambl/EssentialFeatures",
+                "image": "https://img.shields.io/github/stars/williambl/EssentialFeatures",
                 "url": "https://github.com/williambl/EssentialFeatures"
             },
             {
@@ -19,14 +64,28 @@
             }
         ],
         "tags": [
-            "kotlin",
             "java",
+            "forge"
+        ]
+    },
+    {
+        "name": "unity-destruction",
+        "role": "Owner, Main Programmer",
+        "description": "A Unity Script that allows for customisable and realistic destruction of objects.",
+        "homepage": "https://github.com/williambl/unity-destruction",
+        "image": {
+            "src": "https://media.forgecdn.net/avatars/236/469/637092749484707956.png",
+            "alt": "unity-destruction logo"
+        },
+        "shields": [
+            {
+                "image": "https://img.shields.io/github/stars/williambl/unity-destruction",
+                "url": "https://github.com/williambl/unity-destruction"
+            }
+        ],
+        "tags": [
             "C#",
-            "python",
-            "forge",
-            "fabric",
-            "unity",
-            "discord"
+            "unity"
         ]
     }
 ]
