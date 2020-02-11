@@ -7,7 +7,7 @@ layout: default
 
 <div class="flex flex-wrap mb-4">
     {% for project in site.data.projects %}
-    <div class="max-w-xs flex-none rounded overflow-hidden shadow-xl bg-black">
+    <div class="max-w-xs flex-none rounded overflow-hidden shadow-xl bg-black m-3 hover:bg-gray-950">
         <a href="{{ project.homepage }}">
             <img class="w-full" src="{{ project.image.src }}" alt="{{ project.image.alt }}" />
         </a>
@@ -26,6 +26,6 @@ layout: default
             {% endfor %}
         </div>
         </a>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
