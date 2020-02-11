@@ -27,10 +27,10 @@
     {
         "name": "RaycastEngine",
         "role": "Owner, Developer",
-        "description": "A game engine with Wolfenstein3D-style rendering.",
+        "description": "A game engine with Wolfenstein3D-style rendering. Image from Wikimedia Commons.",
         "homepage": "https://github.com/williambl/raycast-engine",
         "image": {
-            "src": "https://media.forgecdn.net/avatars/237/51/637096945899162216.png",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Simple_raycasting_with_fisheye_correction.gif",
             "alt": "RaycastEngine logo"
         },
         "shields": [
@@ -74,8 +74,8 @@
         "description": "A Unity Script that allows for customisable and realistic destruction of objects.",
         "homepage": "https://github.com/williambl/unity-destruction",
         "image": {
-            "src": "https://media.forgecdn.net/avatars/236/469/637092749484707956.png",
-            "alt": "unity-destruction logo"
+            "src": "/img/logos/unity-mwu-white.png",
+            "alt": "Unity3D logo"
         },
         "shields": [
             {
