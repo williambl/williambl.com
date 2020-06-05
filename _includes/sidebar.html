@@ -2,23 +2,12 @@
 
 <div class="fixed object-left text-right h-screen w-64 bg-black text-gray-200">
   {% if author.avatar %}
-  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="image of {{ author.name }}" class="w-64 h-64" />
   {% endif %}
-  <a href="{{ site.url }}/" class="m-4 text-6xl font-semibold text-primary">{{ author.name }}</a>
+  <a href="{{ site.url }}/" class="m-4 -mb-4 text-6xl font-semibold text-primary hover:underline block">{{ author.name }}</a>
+  <span class="mx-2 text-l font-semibold italic text-secondary block">{{ author.job }}</span>
   <br />
-  <span class="m-2 text-l font-semibold italic text-secondary">{{ author.job }}</span>
+  <span class="mx-3 block">{{ author.bio }}</span>
   <br />
-  <span class="m-2">{{ author.bio }}</span>
-  <br />
-  <nav class="nav">
-    <ul class="nav-list">
-      {% for page in site.pages %} {% if page.title %}
-      <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>{% unless forloop.last %}
-        <span>/</span>{% endunless %}
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-  </nav>
   {% include social-links.html %}
 </div>

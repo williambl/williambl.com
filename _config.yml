@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-description: Sometimes I make things.
+description: "I make things. Sometimes they're not bad. <em>Sometimes.</em>"
 long_description: >
   Hi!
   I sometimes make things, usually with code. You can see a small selection down below. I also often participate in Ludum Dares, and sometimes other game jams (if I remember when they happen!)
@@ -48,9 +48,9 @@ exclude:
 #
 owner:
   name: Will BL
-  avatar:
-  job: "Developer"
-  bio: Sometimes I make things.
+  avatar: "WBL/gh-avatar-460.jpeg"
+  job: "Software Developer"
+  bio: "I make things. Sometimes they're not bad. <em>Sometimes.</em>"
   email: william@williambl.com
   disqus-shortname:
   twitter:
