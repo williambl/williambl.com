@@ -2,9 +2,13 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "primary": "#df3035",
-                "secondary": "#ed8e15",
-                "tertiary": "#8328eb",
+                "primary": "#ffccb9",
+                "primary-dark": "#f55f5f",
+                "secondary": "#ffefb9",
+                "tertiary": "#e1b9ff",
+                "tertiary-dark": "#b97ede",
+                "quaternary": "#b9f8ff",
+                "quaternary-dark": "#55bbd4",
                 "gray-950": "#0f131a",
                 "kotlin": "#f18e33",
                 "java": "#b07219",
