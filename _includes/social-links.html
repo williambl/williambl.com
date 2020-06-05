@@ -1,16 +1,15 @@
-<ul class="mx-4">
-    {% if author.email %}<li class="inline-block"><a href="mailto:{{ author.email }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-envelope"></i></a></li>{% endif %}
-    {% if author.twitter %}<li class="inline-block"><a href="http://twitter.com/{{ author.twitter }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>{% endif %}
-    {% if author.facebook %}<li class="inline-block"><a href="http://facebook.com/{{ author.facebook }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>{% endif %}
-    {% if author.linkedin %}<li class="inline-block"><a href="http://linkedin.com/in/{{ author.linkedin }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>{% endif %}
-    {% if author.instagram %}<li class="inline-block"><a href="http://instagram.com/{{ author.instagram }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>{% endif %}
-    {% if author.tumblr %}<li class="inline-block"><a href="http://{{ author.tumblr }}.tumblr.com" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-tumblr"></i></a></li>{% endif %}
-    {% if author.github %}<li class="inline-block"><a href="http://github.com/{{ author.github }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>{% endif %}
-    {% if author.stackoverflow %}<li class="inline-block"><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>{% endif %}
-    {% if author.lastfm %}<li class="inline-block"><a href="http://lastfm.com/user/{{ author.lastfm }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-music"></i></a></li>{% endif %}
-    {% if author.steam %}<li class="inline-block"><a href="http://steamcommunity.com/id/{{ author.steam }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-steam"></i></a></li>{% endif %}
-    {% if author.youtube %}<li class="inline-block"><a href="https://youtube.com/user/{{ author.youtube }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-youtube"></i></a></li>{% endif %}
-    {% if author.soundcloud %}<li class="inline-block"><a href="http://soundcloud.com/{{ author.soundcloud }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-soundcloud"></i></a></li>{% endif %}
-    {% if author.flickr %}<li class="inline-block"><a href="http://www.flickr.com/{{ author.flickr }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-flickr"></i></a></li>{% endif %}
-    {% if author.codepen %}<li class="inline-block"><a href="http://codepen.io/{{ author.codepen }}" class="hover:text-tertiary" target="_blank"><i class="fa fa-fw fa-codepen"></i></a></li>{% endif %}
+<ul class="mx-4 text-l">
+    {% if author.email %}<li class=""><a href="mailto:{{ author.email }}" class="text-tertiary hover:text-primary" target="_blank">Email me <i class="fa fa-fw fa-envelope"></i></a></li>{% endif %}
+    {% if author.twitter %}<li class=""><a href="http://twitter.com/{{ author.twitter }}" class="text-tertiary hover:text-primary" target="_blank">Twitter <i class="fa fa-fw fa-twitter"></i></a></li>{% endif %}
+    {% if author.facebook %}<li class=""><a href="http://facebook.com/{{ author.facebook }}" class="text-tertiary hover:text-primary" target="_blank">Facebook <i class="fa fa-fw fa-facebook"></i></a></li>{% endif %}
+    {% if author.linkedin %}<li class=""><a href="http://linkedin.com/in/{{ author.linkedin }}" class="text-tertiary hover:text-primary" target="_blank">LinkedIn <i class="fa fa-fw fa-linkedin"></i></a></li>{% endif %}
+    {% if author.instagram %}<li class=""><a href="http://instagram.com/{{ author.instagram }}" class="text-tertiary hover:text-primary" target="_blank">Instagram <i class="fa fa-fw fa-instagram"></i></a></li>{% endif %}
+    {% if author.tumblr %}<li class=""><a href="http://{{ author.tumblr }}.tumblr.com" class="text-tertiary hover:text-primary" target="_blank">Tumblr <i class="fa fa-fw fa-tumblr"></i></a></li>{% endif %}
+    {% if author.github %}<li class=""><a href="http://github.com/{{ author.github }}" class="text-tertiary hover:text-primary" target="_blank">GitHub <i class="fa fa-fw fa-github"></i></a></li>{% endif %}
+    {% if author.stackoverflow %}<li class=""><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="text-tertiary hover:text-primary" target="_blank">StackOverflow <i class="fa fa-fw fa-stack-overflow"></i></a></li>{% endif %}
+    {% if author.steam %}<li class=""><a href="http://steamcommunity.com/id/{{ author.steam }}" class="text-tertiary hover:text-primary" target="_blank">Steam <i class="fa fa-fw fa-steam"></i></a></li>{% endif %}
+    {% if author.youtube %}<li class=""><a href="https://youtube.com/user/{{ author.youtube }}" class="text-tertiary hover:text-primary" target="_blank">YouTube <i class="fa fa-fw fa-youtube"></i></a></li>{% endif %}
+    {% if author.soundcloud %}<li class=""><a href="http://soundcloud.com/{{ author.soundcloud }}" class="text-tertiary hover:text-primary" target="_blank">SoundCloud <i class="fa fa-fw fa-soundcloud"></i></a></li>{% endif %}
+    {% if author.flickr %}<li class=""><a href="http://www.flickr.com/{{ author.flickr }}" class="text-tertiary hover:text-primary" target="_blank">Flickr <i class="fa fa-fw fa-flickr"></i></a></li>{% endif %}
+    {% if author.codepen %}<li class=""><a href="http://codepen.io/{{ author.codepen }}" class="text-tertiary hover:text-primary" target="_blank">Codepen <i class="fa fa-fw fa-codepen"></i></a></li>{% endif %}
 </ul>
