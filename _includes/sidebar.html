@@ -2,7 +2,7 @@
 
 <div class="sm:fixed sm:object-left top-0 text-center sm:text-right sm:h-screen sm:w-64 overflow-auto bg-black text-gray-200">
   {% if author.avatar %}
-  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="image of {{ author.name }}" class="sm:w-64 sm:h-64" />
+  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="image of {{ author.name }}" class="w-full sm:w-64 sm:h-64" />
   {% endif %}
   <a href="{{ site.url }}/" class="m-4 -mb-4 text-6xl font-semibold text-primary hover:underline block">{{ author.name }}</a>
   <span class="mx-2 text-l font-semibold italic text-secondary block">{{ author.job }}</span>
