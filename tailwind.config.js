@@ -2,6 +2,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                "primary": "#df3035",
+                "secondary": "#ed8e15",
+                "tertiary": "#8328eb",
                 "gray-950": "#0f131a",
                 "kotlin": "#f18e33",
                 "java": "#b07219",
