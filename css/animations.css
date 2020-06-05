@@ -1,0 +1,32 @@
+@keyframes sidebar-slide-in {
+    0% { translate: -16rem }
+    100% { translate: 0 }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0.0 }
+    100% { opacity: 1.0 }
+}
+
+@keyframes grow-lines {
+    0% {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+    100% {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+.slide-in-ltr {
+    animation: sidebar-slide-in ease-out 0.3s
+}
+
+.fade-in {
+    animation: fade-in ease-out 0.5s
+}
+
+.growing {
+    animation: grow-lines ease 1.5s
+}
