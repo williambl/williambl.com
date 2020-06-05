@@ -1,8 +1,9 @@
 [
     {"name": "og:title", "content": "Will BL"},
     {"name": "og:type", "content": "website"},
-    {"name": "og:url", "content": "https://williambl.com"},
-    {"name": "og:description", "content": "Sometimes I make things."},
+    {"name": "og:url", "content": "https://willbl.dev"},
+    {"name": "og:image", "content": "https://willbl.dev/img/WBL/gh-avatar-460.jpeg"},
+    {"name": "og:description", "content": "I make things. Sometimes they're good."},
 
-    {"name": "theme-color", "content": "#328bf0"}
+    {"name": "theme-color", "content": "#df3035"}
 ]
