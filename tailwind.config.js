@@ -22,6 +22,7 @@ module.exports = {
                 "lwjgl": "#1b2426"
             }
         }
+
     },
     variants: {},
     plugins: []

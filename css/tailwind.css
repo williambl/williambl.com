@@ -7,6 +7,10 @@
 
 /* Write your styles below this line. */
 
+.font-willbl {
+    font-family: "Oswald", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
 /* Write your styles above this line. */
 
 @tailwind utilities;
