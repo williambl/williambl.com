@@ -50,7 +50,7 @@
         "description": "An MC Forge mod adding various assorted features.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files",
         "image": {
-            "src": "https://media.forgecdn.net/avatars/236/469/637092749484707956.png",
+            "src": "/img/logos/essentialfeatures.png",
             "alt": "Essential Features logo"
         },
         "shields": [
