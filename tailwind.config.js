@@ -14,12 +14,14 @@ module.exports = {
                 "java": "#b07219",
                 "C#": "#178600",
                 "python": "#3572a5",
+                "HTML": "#e34c26",
 
                 "forge": "#1e2d42",
                 "fabric": "#9a927e",
                 "unity": "#030302",
                 "discord": "#7289da",
-                "lwjgl": "#1b2426"
+                "lwjgl": "#1b2426",
+                "jekyll": "#3f1f1f"
             }
         }
 
