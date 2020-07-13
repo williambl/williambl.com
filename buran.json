@@ -2,7 +2,7 @@
     "formatVersion": "0.5.9",
     "id": "buran",
     "title": "Buran",
-    "version": "1.0.202007132005",
+    "version": "1.0.202007132012",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -251,12 +251,6 @@
             "location": "https://edge.forgecdn.net/files/2989/363/ecotones-0.4.4.jar",
             "to": "mods/ecotones-0.4.4.jar",
             "size": 1963709
-        },
-        {
-            "hash": "sha-256:b6db35989f3c9886a4d6a0ddb34f5f317c57b97c4460398f5210e105e38452bd",
-            "location": "https://edge.forgecdn.net/files/3002/755/immersive-portals-0.18-mc1.16.1-fabric.jar",
-            "to": "mods/immersive-portals-0.18-mc1.16.1-fabric.jar",
-            "size": 1310775
         },
         {
             "hash": "sha-256:e7f8d67042156a68f091c5ce12818dcea8a11948790d399f2d719c0431e89edf",
