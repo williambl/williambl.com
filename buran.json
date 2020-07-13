@@ -1,0 +1,359 @@
+{
+    "formatVersion": "0.5.9",
+    "id": "buran",
+    "title": "Buran",
+    "version": "1.0.202007131956",
+    "objectsLocation": "objects",
+    "gameVersion": "1.16.1",
+    "modLoader": {
+        "type": "modloader.Fabric",
+        "loader": "0.8.9+build.203",
+        "intermediateMappings": "1.16.1",
+        "installer": "0.6.1.45"
+    },
+    "tasks": [
+        {
+            "hash": "sha-256:0bd96674f2f77295f70cd1269316dbeab7f9183989a33ecf4152519a07879213",
+            "location": "https://edge.forgecdn.net/files/2989/381/simplexterrain-0.6.4.jar",
+            "to": "mods/simplexterrain-0.6.4.jar",
+            "size": 1068283
+        },
+        {
+            "hash": "sha-256:529c536cca913a4fbe7c0878338472524bd3198b1bbc33cfef5b05c4f6fe9857",
+            "location": "https://edge.forgecdn.net/files/2993/390/cotton-resources+unspecified-1.7.1.jar",
+            "to": "mods/cotton-resources+unspecified-1.7.1.jar",
+            "size": 643038
+        },
+        {
+            "hash": "sha-256:98c4b7ad2feef710f5a0ce8e5ece02c086ce5e316c1c15bb8847e455908c30c0",
+            "location": "https://edge.forgecdn.net/files/2996/856/advancements-enlarger-0.2.2.jar",
+            "to": "mods/advancements-enlarger-0.2.2.jar",
+            "size": 57341
+        },
+        {
+            "hash": "sha-256:7afd036657b1438337d0b017a0c472898bda53dd30534eba96a66e2dc2bf713c",
+            "location": "https://edge.forgecdn.net/files/2998/202/Patchouli-1.16-38-FABRIC.jar",
+            "to": "mods/Patchouli-1.16-38-FABRIC.jar",
+            "size": 773111
+        },
+        {
+            "hash": "sha-256:149c5082caccb1ddf7db60c606d7063b1dda93b8d8b69bcc3d971421746d7cf7",
+            "location": "https://edge.forgecdn.net/files/2998/205/Patchouli-1.16-38.jar",
+            "to": "mods/Patchouli-1.16-38.jar",
+            "size": 556656
+        },
+        {
+            "hash": "sha-256:18fbc1b06df22252eff1d5a0d356be2a032f46e82401c5eae7be48f6dfa2988d",
+            "location": "https://edge.forgecdn.net/files/2987/794/betterdroppeditems-1.2.1-1.16.jar",
+            "to": "mods/betterdroppeditems-1.2.1-1.16.jar",
+            "size": 48728
+        },
+        {
+            "hash": "sha-256:5993a2a6d9052cc6688933d212c9cef190ac3c980d72ae9c23730887264599f0",
+            "location": "https://edge.forgecdn.net/files/2991/970/blockus-1.6.0.1.jar",
+            "to": "mods/blockus-1.6.0.1.jar",
+            "size": 2375248
+        },
+        {
+            "hash": "sha-256:8f05b0ed596f4285d7e4eaebd82ed870e1286aa9f61d6fd3e06c82d879908dd9",
+            "location": "https://edge.forgecdn.net/files/2990/657/herbocraft-v1.0.5.jar",
+            "to": "mods/herbocraft-v1.0.5.jar",
+            "size": 898356
+        },
+        {
+            "hash": "sha-256:f39cafbd5ed0bb44ea86283d0ffd99164e637f9ac8360270ca031b552ecbfd0e",
+            "location": "https://edge.forgecdn.net/files/2924/213/fabric-language-kotlin-1.3.71+build.1.jar",
+            "to": "mods/fabric-language-kotlin-1.3.71+build.1.jar",
+            "size": 5305745
+        },
+        {
+            "hash": "sha-256:2d503dc50232f17012dff0b0853e36ebaf979f7a839e38fe731a2bba687c5c3a",
+            "location": "https://edge.forgecdn.net/files/3000/254/RebornCore-1.16-4.3.2+build.49.jar",
+            "to": "mods/RebornCore-1.16-4.3.2+build.49.jar",
+            "size": 528443
+        },
+        {
+            "hash": "sha-256:9bcbea152fa46ae9f442e11513add5ebea523fd43eefe876cffbce57ed71f0d9",
+            "location": "https://edge.forgecdn.net/files/3000/417/haema-1.1.3.jar",
+            "to": "mods/haema-1.1.3.jar",
+            "size": 166378
+        },
+        {
+            "hash": "sha-256:9c4e34baf81a391fe4c20a981084e64246fec0cb5f8afaaaf5e66f0979513ae5",
+            "location": "https://edge.forgecdn.net/files/2997/288/AppleSkin-mc1.16.1-forge-1.0.14.jar",
+            "to": "mods/AppleSkin-mc1.16.1-forge-1.0.14.jar",
+            "size": 29106
+        },
+        {
+            "hash": "sha-256:48814a939ca0fd9daf41a0179410f141d1279dd786f2795fe324af33187e4eb0",
+            "location": "https://edge.forgecdn.net/files/2993/273/fabric-api-0.14.1+build.372-1.16.jar",
+            "to": "mods/fabric-api-0.14.1+build.372-1.16.jar",
+            "size": 609396
+        },
+        {
+            "hash": "sha-256:a94a66bfe6e536f075d833da4c74ae76e541821339e594737baa7d262464a42e",
+            "location": "https://edge.forgecdn.net/files/2993/652/more-paths-0.0.2.jar",
+            "to": "mods/more-paths-0.0.2.jar",
+            "size": 142652
+        },
+        {
+            "hash": "sha-256:4d7731ac342149d82ac9f299204b5445976e0159263b0ba7ff6067ab70c87e0b",
+            "location": "https://edge.forgecdn.net/files/2995/913/okzoomer-4.0.0-alpha.4.1.16.1.jar",
+            "to": "mods/okzoomer-4.0.0-alpha.4.1.16.1.jar",
+            "size": 611011
+        },
+        {
+            "hash": "sha-256:2c314d464827cf2a31f31afd2eb22b2074ace2d8913cd38fdcb62a9314e29f13",
+            "location": "https://edge.forgecdn.net/files/3003/226/torohealth-1.16.1-forge-1.jar",
+            "to": "mods/torohealth-1.16.1-forge-1.jar",
+            "size": 81873
+        },
+        {
+            "hash": "sha-256:ce9c62c14b68649a865ec67c4bb069e666d71469945834140d003c638bd07d64",
+            "location": "https://edge.forgecdn.net/files/2997/5/ynet-0.2.0+1.16.1.jar",
+            "to": "mods/ynet-0.2.0+1.16.1.jar",
+            "size": 546435
+        },
+        {
+            "hash": "sha-256:3629157c3040057aee53044e90dd40c70bca1053937deb7353352979e11e5004",
+            "location": "https://edge.forgecdn.net/files/3003/789/repurposed_structures-1.1.2.jar",
+            "to": "mods/repurposed_structures-1.1.2.jar",
+            "size": 2132094
+        },
+        {
+            "hash": "sha-256:276cc3c778f022fc7e2065f1789debdf995f7e9b8086235fa0d3eca5e7b3429f",
+            "location": "https://edge.forgecdn.net/files/3003/771/essentials-base-0.2.3+1.16.1.jar",
+            "to": "mods/essentials-base-0.2.3+1.16.1.jar",
+            "size": 11478678
+        },
+        {
+            "hash": "sha-256:6ea261c2d28d2c965d20fdbfb85316c96479dcc811922aea34f125dbf3b60834",
+            "location": "https://edge.forgecdn.net/files/2988/10/bunch-o-trinkets-1.0.1.jar",
+            "to": "mods/bunch-o-trinkets-1.0.1.jar",
+            "size": 71170
+        },
+        {
+            "hash": "sha-256:3555f9710bef9967531318d0e02c456afedf27c1a80e4c92aed78e131edfab83",
+            "location": "https://edge.forgecdn.net/files/2989/91/tdnf-mc116-1.10.90.jar",
+            "to": "mods/tdnf-mc116-1.10.90.jar",
+            "size": 546263
+        },
+        {
+            "hash": "sha-256:3f82ca0a64b73908e0403158726651815ff912d1e495388ec94b52ecd397d46b",
+            "location": "https://edge.forgecdn.net/files/3002/156/bigbuckets-1.1.1.jar",
+            "to": "mods/bigbuckets-1.1.1.jar",
+            "size": 18704
+        },
+        {
+            "hash": "sha-256:0852ae961ed2118fe832aa7f698f97fa22eb0541e9be388eba903c8baad460f2",
+            "location": "https://edge.forgecdn.net/files/2993/794/dishes-1.0.3-nopatchouli.jar",
+            "to": "mods/dishes-1.0.3-nopatchouli.jar",
+            "size": 348077
+        },
+        {
+            "hash": "sha-256:4793fce897fc088981fad06ce6b002c38b87aba97d1a9117d4838705ef5c17e1",
+            "location": "https://edge.forgecdn.net/files/3002/894/Origins-1.16-0.2.2.jar",
+            "to": "mods/Origins-1.16-0.2.2.jar",
+            "size": 261578
+        },
+        {
+            "hash": "sha-256:78be79fc882d286e8e23294cbaeeaca1b5c9ac2838c1e6172c0562193dca4d34",
+            "location": "https://edge.forgecdn.net/files/2989/898/give-me-hats-1.16-1.2.6.1.jar",
+            "to": "mods/give-me-hats-1.16-1.2.6.1.jar",
+            "size": 99935
+        },
+        {
+            "hash": "sha-256:f19839777878e39a1f129706989517f196fa621fe4ee9603723339aa004a2aef",
+            "location": "https://edge.forgecdn.net/files/3003/369/traverse-2.2.13+build.27.jar",
+            "to": "mods/traverse-2.2.13+build.27.jar",
+            "size": 277808
+        },
+        {
+            "hash": "sha-256:90264b4f3d128684db70c1c21e60dc882f9b9bcd54c7a86c8bdbd8759cb51931",
+            "location": "https://edge.forgecdn.net/files/3000/255/TechReborn-1.16-3.4.3+build.72.jar",
+            "to": "mods/TechReborn-1.16-3.4.3+build.72.jar",
+            "size": 3705911
+        },
+        {
+            "hash": "sha-256:ab600445405381a3d47e04d7e393483b1bc59a8efd7749c50cc603e9221c91f3",
+            "location": "https://edge.forgecdn.net/files/2996/728/staffofbuilding-1.2.0-1.16.jar",
+            "to": "mods/staffofbuilding-1.2.0-1.16.jar",
+            "size": 271249
+        },
+        {
+            "hash": "sha-256:7552be74e56b55511acac2f28b1296bc9db11dac96e4aa7cfba8646e652d8eb1",
+            "location": "https://edge.forgecdn.net/files/2998/334/flesh2leather-1.0.0.jar",
+            "to": "mods/flesh2leather-1.0.0.jar",
+            "size": 9052
+        },
+        {
+            "hash": "sha-256:c429a2352f36b9fd0508cc3b509bd95ebd08788dc5432aafb8ba88659a9504fb",
+            "location": "https://edge.forgecdn.net/files/2990/466/twine-1.0.3+1.16.1.jar",
+            "to": "mods/twine-1.0.3+1.16.1.jar",
+            "size": 92620
+        },
+        {
+            "hash": "sha-256:a709a0cb1e942cd8133ad608e3becb0dc33bab2bcb045b5278412181b027a081",
+            "location": "https://edge.forgecdn.net/files/2987/686/secretrooms-0.9.1+1.16.1.jar",
+            "to": "mods/secretrooms-0.9.1+1.16.1.jar",
+            "size": 451807
+        },
+        {
+            "hash": "sha-256:9b90b81f0b199d9c05ced4f6e2c1cdcd7773902b304403a8f79654131ab0322e",
+            "location": "https://edge.forgecdn.net/files/3001/707/rer-2.0.2.jar",
+            "to": "mods/rer-2.0.2.jar",
+            "size": 70759
+        },
+        {
+            "hash": "sha-256:faa08b53592c575ed06074bada791ecb5c63765294b1724806d93e93a6724893",
+            "location": "https://edge.forgecdn.net/files/2993/519/mostructures-1.0.0-pre2+mc.1.16.jar",
+            "to": "mods/mostructures-1.0.0-pre2+mc.1.16.jar",
+            "size": 468995
+        },
+        {
+            "hash": "sha-256:a6a9c6cfcf3694d8008d93180cd3b82700719e3690df24e4a6e5213bed9941ad",
+            "location": "https://edge.forgecdn.net/files/2994/370/landmark-0.1.6.jar",
+            "to": "mods/landmark-0.1.6.jar",
+            "size": 963080
+        },
+        {
+            "hash": "sha-256:293438895970fb9fc09de8551c6fcb278cfd3683de7695c1a495ece9cf6a277b",
+            "location": "https://edge.forgecdn.net/files/2987/621/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar",
+            "to": "mods/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar",
+            "size": 60106
+        },
+        {
+            "hash": "sha-256:2494f6912c46bc1d8ca21b7c857c7abe64c2a869b58a6804539da2c45aec8ad3",
+            "location": "https://edge.forgecdn.net/files/3001/518/identity-1.3.0-beta-1.16.jar",
+            "to": "mods/identity-1.3.0-beta-1.16.jar",
+            "size": 909145
+        },
+        {
+            "hash": "sha-256:47b4c1584a75d86c244bd4e936d4923cb1ff7799ff3b68b80be7a79cc54c2988",
+            "location": "https://edge.forgecdn.net/files/3003/840/RoughlyEnoughItems-4.9.0.jar",
+            "to": "mods/RoughlyEnoughItems-4.9.0.jar",
+            "size": 1339311
+        },
+        {
+            "hash": "sha-256:51596e5afca3a7bb3a85c1e4894b930a3426945411b6d62badeb2ff741c68952",
+            "location": "https://edge.forgecdn.net/files/2996/227/Xaeros_Minimap_20.15.3_Forge_1.16.1.jar",
+            "to": "mods/Xaeros_Minimap_20.15.3_Forge_1.16.1.jar",
+            "size": 534470
+        },
+        {
+            "hash": "sha-256:875cf1aaa4bced6761dc3cee090b7612770e5c19aedcb6d80e34b84e628b72af",
+            "location": "https://edge.forgecdn.net/files/2995/978/Mechanized-1.9.0.jar",
+            "to": "mods/Mechanized-1.9.0.jar",
+            "size": 1592044
+        },
+        {
+            "hash": "sha-256:bf0fd96f3eed95ea1e105d2c0adc0f968a9668d70c570561b7b3370fed5a1b75",
+            "location": "https://edge.forgecdn.net/files/2989/363/ecotones-0.4.4.jar",
+            "to": "mods/ecotones-0.4.4.jar",
+            "size": 1963709
+        },
+        {
+            "hash": "sha-256:b6db35989f3c9886a4d6a0ddb34f5f317c57b97c4460398f5210e105e38452bd",
+            "location": "https://edge.forgecdn.net/files/3002/755/immersive-portals-0.18-mc1.16.1-fabric.jar",
+            "to": "mods/immersive-portals-0.18-mc1.16.1-fabric.jar",
+            "size": 1310775
+        },
+        {
+            "hash": "sha-256:e7f8d67042156a68f091c5ce12818dcea8a11948790d399f2d719c0431e89edf",
+            "location": "https://edge.forgecdn.net/files/2989/943/Hwyla-fabric-1.16.1-1.9.22-75.jar",
+            "to": "mods/Hwyla-fabric-1.16.1-1.9.22-75.jar",
+            "size": 264303
+        },
+        {
+            "hash": "sha-256:00b95bf844b2e5a278df1fd17a8f5cdda45d934a0f1cad542517243b4c5217ad",
+            "location": "https://edge.forgecdn.net/files/2989/916/Harvest-fabric-1.16.1-1.2.12-26.jar",
+            "to": "mods/Harvest-fabric-1.16.1-1.2.12-26.jar",
+            "size": 27557
+        },
+        {
+            "hash": "sha-256:40015e31aea668f33b0babee3f7c9c0ee12f947eebf76f9b7d52a57cdcb36a14",
+            "location": "https://edge.forgecdn.net/files/3001/648/vanilla-hammers-1.9.1-1.16.1.jar",
+            "to": "mods/vanilla-hammers-1.9.1-1.16.1.jar",
+            "size": 968569
+        },
+        {
+            "hash": "sha-256:e4c7be1b060596347fcdc02f764f20ec629cf4e65e5d599540a817f71d206b4d",
+            "location": "https://edge.forgecdn.net/files/3000/628/lithium-fabric-mc1.16.1-0.5.1.jar",
+            "to": "mods/lithium-fabric-mc1.16.1-0.5.1.jar",
+            "size": 220039
+        },
+        {
+            "hash": "sha-256:12e31ff265c9d072deb66b989783fcfd0aac07e25d04eb569d6d733fbf90087c",
+            "location": "https://edge.forgecdn.net/files/2991/853/iron-jetpacks-0.2.3.jar",
+            "to": "mods/iron-jetpacks-0.2.3.jar",
+            "size": 563925
+        },
+        {
+            "hash": "sha-256:4d5ee2df77efc861edbaad6301bba1c51ecd776288b10427659b57c9ad768524",
+            "location": "https://edge.forgecdn.net/files/2991/788/fabric-diagonal-panes-0.3.0.jar",
+            "to": "mods/fabric-diagonal-panes-0.3.0.jar",
+            "size": 362117
+        },
+        {
+            "hash": "sha-256:5cec40b9b46ee5b8308b1bdd3b2945a2f6425fa22c9e8cd15937644ad44f9d9c",
+            "location": "https://edge.forgecdn.net/files/2997/857/terrestria-2.0.3+build.46.jar",
+            "to": "mods/terrestria-2.0.3+build.46.jar",
+            "size": 1254295
+        },
+        {
+            "hash": "sha-256:63793e12c63e4710567f3729d9d77ab1eda9217c465be74ee03cde52adc62704",
+            "location": "https://edge.forgecdn.net/files/3003/368/modmenu-1.14.0+build.24.jar",
+            "to": "mods/modmenu-1.14.0+build.24.jar",
+            "size": 92003
+        },
+        {
+            "hash": "sha-256:a7aed6e81ca083ff78f371e5be07daac2e12895fee635459a55ece0f0c4ec00c",
+            "location": "https://edge.forgecdn.net/files/3000/619/lambdynamiclights-fabric-1.2.1+1.16.1.jar",
+            "to": "mods/lambdynamiclights-fabric-1.2.1+1.16.1.jar",
+            "size": 409172
+        },
+        {
+            "hash": "sha-256:c5ab48a5fabf45efaffd0be2e047a657fe335a8540bf73f78aadf5905d8064bf",
+            "location": "https://edge.forgecdn.net/files/3003/93/sodium-fabric-mc1.16.1-0.1.0.jar",
+            "to": "mods/sodium-fabric-mc1.16.1-0.1.0.jar",
+            "side": "CLIENT",
+            "size": 419030
+        },
+        {
+            "hash": "sha-256:3c74b87b729f82bca1206b2ac117bff741d2022fe1061a3419ad545660989bff",
+            "location": "https://edge.forgecdn.net/files/2993/902/cloth-api-1.0.6.jar",
+            "to": "mods/cloth-api-1.0.6.jar",
+            "size": 145746
+        },
+        {
+            "hash": "sha-256:d21246b86e659d49728dd72c2eb215caa64f5769a5ab2791a34067c7b2e020ed",
+            "location": "https://edge.forgecdn.net/files/3004/18/LilTaterReloaded-1.1.7+1.16.1.jar",
+            "to": "mods/LilTaterReloaded-1.1.7+1.16.1.jar",
+            "size": 237535
+        },
+        {
+            "hash": "sha-256:f700f0c8b6d16b1d90164ad79fbfa2d89fafdd44edec0f69b20806b24484d6d7",
+            "location": "https://edge.forgecdn.net/files/2998/453/Mambience-2.1.0-1.16.jar",
+            "to": "mods/Mambience-2.1.0-1.16.jar",
+            "size": 40195546
+        },
+        {
+            "hash": "sha-256:655cf4e27bb16d63795ab8f412aa54cf6be48e176a0635c1a90b0bd18d5a3cfb",
+            "location": "https://edge.forgecdn.net/files/3003/416/trinkets-2.6.3.jar",
+            "to": "mods/trinkets-2.6.3.jar",
+            "size": 175130
+        },
+        {
+            "hash": "sha-256:c18f7788cee8e941666120b1c403d7b6dc221899c33247df8bdf52c45ecd5a5f",
+            "location": "https://edge.forgecdn.net/files/2990/980/Adorn-1.9.1+1.16.1.jar",
+            "to": "mods/Adorn-1.9.1+1.16.1.jar",
+            "size": 2420908
+        },
+        {
+            "hash": "sha-256:39fec5909c1be36c980b96cd7620aaaa71f8603726bb2b9c0056a96485d4adb2",
+            "location": "https://edge.forgecdn.net/files/2995/685/lacrimis-1.1.3.jar",
+            "to": "mods/lacrimis-1.1.3.jar",
+            "size": 625306
+        }
+    ]
+}
