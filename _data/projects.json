@@ -2,7 +2,7 @@
     {
         "name": "RaycastEngine",
         "role": "Owner, Developer",
-        "description": "A game engine with Wolfenstein3D-style rendering. Image from Wikimedia Commons.",
+        "description": "A game engine with Wolfenstein3D-style rendering, using modern OpenGL. Includes networked multiplayer, quadtree-based collision detection, and loading of custom levels, textures, and game objects from files. Made to be lightweight and modular. Image from Wikimedia Commons.",
         "homepage": "https://github.com/williambl/raycast-engine",
         "image": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Simple_raycasting_with_fisheye_correction.gif",
@@ -22,7 +22,7 @@
     {
         "name": "Big Buckets",
         "role": "Owner, Developer",
-        "description": "An MC Forge and Fabric mod adding upgradable buckets.",
+        "description": "My most popular project, with over 300000 downloads - a Minecraft Forge and Fabric mod adding upgradable buckets, to make fluid storage and conveyance easier.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/bigbuckets/files",
         "image": {
             "src": "https://media.forgecdn.net/avatars/237/51/637096945899162216.png",
@@ -47,7 +47,7 @@
     {
         "name": "unity-destruction",
         "role": "Owner, Main Programmer",
-        "description": "A Unity Script that allows for customisable and realistic destruction of objects.",
+        "description": "A Unity Script that allows for customisable and realistic destruction of objects under certain conditions.",
         "homepage": "https://github.com/williambl/unity-destruction",
         "image": {
             "src": "/img/logos/unity-mwu-white.png",
@@ -67,7 +67,7 @@
     {
         "name": "Essential Features",
         "role": "Owner, Main Programmer",
-        "description": "An MC Forge mod adding various assorted features.",
+        "description": "A Minecraft Forge mod adding various assorted features.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files",
         "image": {
             "src": "/img/logos/essentialfeatures.png",
@@ -86,6 +86,26 @@
         "tags": [
             "java",
             "forge"
+        ]
+    },
+    {
+        "name": "Cursed-Legacy-API",
+        "role": "Contributor",
+        "description": "An attempt to make a modding API for a 10-year-old version of Minecraft. Challenges included having to understand and create mappings for obfuscated code, and working with Mixins, a tool for injecting code into methods on the JVM at runtime.",
+        "homepage": "https://github.com/minecraft-cursed-legacy/Cursed-Legacy-API",
+        "image": {
+            "src": "https://minecraft-cursed-legacy.github.io/cursedlegacy.png",
+            "alt": "Minecraft Cursed Legacy logo"
+        },
+        "shields": [
+            {
+                "image": "https://img.shields.io/github/languages/code-size/Minecraft-Cursed-Legacy/cursed-legacy-api",
+                "url": "https://github.com/minecraft-cursed-legacy/Cursed-Legacy-API"
+            }
+        ],
+        "tags": [
+            "java",
+            "fabric"
         ]
     },
     {
