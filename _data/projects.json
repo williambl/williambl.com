@@ -5,7 +5,7 @@
         "description": "A game engine with Wolfenstein3D-style rendering, using modern OpenGL. Includes networked multiplayer, quadtree-based collision detection, and loading of custom levels, textures, and game objects from files. Made to be lightweight and modular. Image from Wikimedia Commons.",
         "homepage": "https://github.com/williambl/raycast-engine",
         "image": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Simple_raycasting_with_fisheye_correction.gif",
+            "src": "/img/logos/raycastengine.webm",
             "alt": "RaycastEngine logo"
         },
         "shields": [
@@ -50,7 +50,7 @@
         "description": "A Unity Script that allows for customisable and realistic destruction of objects under certain conditions.",
         "homepage": "https://github.com/williambl/unity-destruction",
         "image": {
-            "src": "/img/logos/unity-mwu-white.png",
+            "src": "/img/logos/unity-mwu-white.webm",
             "alt": "Unity3D logo"
         },
         "shields": [
@@ -70,7 +70,7 @@
         "description": "A Minecraft Forge mod adding various assorted features.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files",
         "image": {
-            "src": "/img/logos/essentialfeatures.png",
+            "src": "/img/logos/essentialfeatures.webm",
             "alt": "Essential Features logo"
         },
         "shields": [
