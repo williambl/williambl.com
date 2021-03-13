@@ -1,9 +1,9 @@
 <h2 class="text-4xl font-semibold mb-2">My Projects</h2>
 <p class="mb-4">Here's a collection of the things I've made or been involved in.</p>
 
-<div class="flex flex-wrap mb-4">
+<div class="flex flex-wrap mb-4 justify-center">
     {% for project in site.data.projects %}
-    <div class="max-w-xs flex-none rounded overflow-hidden shadow-xl bg-black m-3 hover:bg-gray-950">
+    <div class="w-48 max-w-xs flex-grow rounded overflow-hidden shadow-2xl bg-black m-3 hover:bg-gray-950">
         <a href="{{ project.homepage }}">
             <img class="w-full" src="{{ project.image.src }}" alt="{{ project.image.alt }}" />
         </a>
@@ -17,6 +17,7 @@
             <p class="text-gray-400 text-base">
                 {{ project.description }}
             </p>
+            <hr class="my-1" />
             {% for tag in project.tags %}
             <span class="inline-block bg-{{ tag }} rounded-full px-3 py-1 text-sm text-gray-200 font-semibold">{{ tag }}</span>
             {% endfor %}
