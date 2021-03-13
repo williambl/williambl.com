@@ -2,7 +2,7 @@
     {
         "name": "RaycastEngine",
         "role": "Owner, Developer",
-        "description": "A game engine with Wolfenstein3D-style rendering, using modern OpenGL. Includes networked multiplayer, quadtree-based collision detection, and loading of custom levels, textures, and game objects from files. Made to be lightweight and modular. Image from Wikimedia Commons.",
+        "description": "A game engine with Wolfenstein3D-style rendering, using modern OpenGL. Includes networked multiplayer, quadtree-based collision detection, and loading of custom levels, textures, and game objects from files. Made to be lightweight and modular.",
         "homepage": "https://github.com/williambl/raycast-engine",
         "image": {
             "src": "/img/logos/raycastengine.webp",
@@ -20,9 +20,33 @@
         ]
     },
     {
+        "name": "Haema",
+        "role": "Owner, Main Programmer",
+        "description": "A popular Minecraft Fabric mod, letting you play as a vampire!",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/haema",
+        "image": {
+            "src": "/img/logos/haema.webp",
+            "alt": "Haema logo"
+        },
+        "shields": [
+            {
+                "image": "https://img.shields.io/github/stars/williambl/haema",
+                "url": "https://github.com/williambl/haema"
+            },
+            {
+                "image": "https://cf.way2muchnoise.eu/short_haema.svg",
+                "url": "https://www.curseforge.com/minecraft/mc-mods/haema/files"
+            }
+        ],
+        "tags": [
+            "java",
+            "fabric"
+        ]
+    },
+    {
         "name": "Big Buckets",
         "role": "Owner, Developer",
-        "description": "My most popular project, with over 300000 downloads - a Minecraft Forge and Fabric mod adding upgradable buckets, to make fluid storage and conveyance easier.",
+        "description": "My most popular project, with over 600000 downloads - a Minecraft Forge and Fabric mod adding upgradable buckets, to make fluid storage and conveyance easier.",
         "homepage": "https://www.curseforge.com/minecraft/mc-mods/bigbuckets/files",
         "image": {
             "src": "https://media.forgecdn.net/avatars/237/51/637096945899162216.png",
@@ -65,33 +89,9 @@
         ]
     },
     {
-        "name": "Essential Features",
-        "role": "Owner, Main Programmer",
-        "description": "A Minecraft Forge mod adding various assorted features.",
-        "homepage": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files",
-        "image": {
-            "src": "/img/logos/essentialfeatures.webp",
-            "alt": "Essential Features logo"
-        },
-        "shields": [
-            {
-                "image": "https://img.shields.io/github/stars/williambl/EssentialFeatures",
-                "url": "https://github.com/williambl/EssentialFeatures"
-            },
-            {
-                "image": "https://cf.way2muchnoise.eu/short_essential-features.svg",
-                "url": "https://www.curseforge.com/minecraft/mc-mods/essential-features/files"
-            }
-        ],
-        "tags": [
-            "java",
-            "forge"
-        ]
-    },
-    {
         "name": "Cursed-Legacy-API",
         "role": "Contributor",
-        "description": "An attempt to make a modding API for a 10-year-old version of Minecraft. Challenges included having to understand and create mappings for obfuscated code, and working with Mixins, a tool for injecting code into methods on the JVM at runtime.",
+        "description": "An attempt to create an API for a decade-old version of a game using modern modding technologies. Challenges included having to understand and create mappings for obfuscated code, and working with a tool for injecting code into methods on the JVM at runtime.",
         "homepage": "https://github.com/minecraft-cursed-legacy/Cursed-Legacy-API",
         "image": {
             "src": "https://minecraft-cursed-legacy.github.io/cursedlegacy.png",
