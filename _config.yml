@@ -9,7 +9,7 @@ long_description: >
   Hi!
   I make things, usually with code. You can see a small selection of things I've made down below. I do most of my programming for game modding, and I also often participate in game jams such as Ludum Dare (if I remember when they happen!). My favourite language is Kotlin, but I am also proficient in Java and a few others.
 url: https://willbl.dev/
-favicon: WBL/gh-avatar-460.jpeg
+favicon: WBL/gh-avatar-460.png
 #
 ###################################
 # Jekyll configuration
@@ -51,7 +51,7 @@ exclude:
 #
 owner:
   name: Will BL
-  avatar: "WBL/gh-avatar-460.jpeg"
+  avatar: "WBL/gh-avatar-460.png"
   job: "Software Developer"
   bio: "I make things. Maybe you'll enjoy some of them?"
   email: william@williambl.com
